@@ -84,7 +84,7 @@ function Events() {
             >
               ✕
             </button>
-            <EventForm addEvent={addEvent} />
+            <EventForm addEvent={addEvent}  setShowForm={setShowForm}/>
           </div>
         </div>
       )}
